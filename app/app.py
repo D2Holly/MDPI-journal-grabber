@@ -4,6 +4,14 @@ Docstring for app
 import time
 import requests
 
+def sample_tests(number):
+    if number == 1:
+        return True
+    elif number == 0:
+        return False
+    else:
+        return False
+
 def main():
     """
     Docstring for main
