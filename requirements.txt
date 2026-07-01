@@ -1,6 +1,5 @@
 certifi==2026.6.17
 charset-normalizer==3.4.7
-coverage==7.14.3
 idna==3.18
 iniconfig
 packaging==26.2
