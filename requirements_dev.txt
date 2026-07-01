@@ -2,4 +2,5 @@
 pytest
 pytest-cov==7.1.0
 coverage==7.14.3
+requests
 lxml
