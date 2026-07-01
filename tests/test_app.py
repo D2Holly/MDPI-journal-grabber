@@ -106,7 +106,7 @@ class TestMain:
         if exception_type == 200:
             assert app.main() is True
         else:
-            assert app.main() is 403
+            assert app.main() == 403
 
 
 class TestGetResponse:
@@ -136,7 +136,7 @@ class TestGetResponse:
         if exception_type == 200:
             assert app.get_response_data(None, None, None) is True
         else:
-            assert app.get_response_data(None, None, None) is exception_type
+            assert app.get_response_data(None, None, None) == exception_type
 
 
 
