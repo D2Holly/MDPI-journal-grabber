@@ -64,7 +64,7 @@ def output_response_data(data):
         print(f"Title: {item['title'][0]}")
         print(f"URL: {url_link}")
         print(f"Volume: {item_volume}")
-        print(f"Issue: {item["issue"]}\n")
+        print(f"Issue: {item['issue']}\n")
 
         time.sleep(1)
     return True
