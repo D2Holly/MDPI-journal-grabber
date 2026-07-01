@@ -41,6 +41,7 @@ def get_response_data(url, params, headers):
     else:
         print("An error occured")
         print(response.status_code)
+        return response.status_code
 
 
 def output_response_data(data):
@@ -68,6 +69,7 @@ def output_response_data(data):
 
         time.sleep(1)
     return True
+
 
 def main():
     """
