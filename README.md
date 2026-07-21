@@ -1,5 +1,5 @@
 # MDPI-journal-grabber
-This script connects to the Crossref REST API to grab all volumes from an open source MDPI journal. The default for this script is to search the remote sensing journal, find the most recent 30 issues from the most recent volumes, that are journals-articles and parse metadata (title, URL, volume, and issue).
+This script connects to the Crossref REST API to grab all volumes from an open source MDPI journal. The default for this script is to search the Remote Sensing journal [https://www.mdpi.com/journal/remotesensing], find the most recent 30 issues from the most recent volumes, and parse metadata (title, URL, volume, and issue).
 
 
 ## Features
