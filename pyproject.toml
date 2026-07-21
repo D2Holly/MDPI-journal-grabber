@@ -1,0 +1,11 @@
+[tool.coverage.run]
+# This tells coverage to completely ignore these files
+omit = [
+    "tests/*",
+    "app/__init__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]

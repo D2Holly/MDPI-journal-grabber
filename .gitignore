@@ -1,3 +1,7 @@
 outputs/
 .venv
 venv
+.vscode/
+.pytest_cache
+.gitignore
+.coverage
