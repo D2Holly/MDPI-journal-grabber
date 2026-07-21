@@ -4,3 +4,8 @@ omit = [
     "tests/*",
     "app/__init__.py",
 ]
+
+[tool.coverage.report]
+exclude_lines = [
+    "if __name__ == .__main__.:"
+]

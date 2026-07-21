@@ -6,31 +6,6 @@ import pytest
 import requests
 from app import app
 
-class TestApp:
-    """
-    Docstring for TestApp
-    """
-    @pytest.mark.parametrize(
-    "arguments",
-        [
-            1,
-            0,
-            "Banana"
-        ]
-    )
-    def test_ci_pipeline(self, arguments):
-        """
-        Docstring for test_try
-        
-        :param self: Description
-        """
-        if arguments == 1:
-            assert app.sample_tests(arguments) is True
-        elif arguments == 0:
-            assert app.sample_tests(arguments) is False
-        else:
-            assert app.sample_tests(arguments) is False
-
 
 def fake_param_data():
     """

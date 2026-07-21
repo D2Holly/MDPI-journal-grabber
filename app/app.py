@@ -5,19 +5,6 @@ import time
 import requests
 
 
-def sample_tests(number):
-    """
-    Docstring for sample_tests
-    
-    :param number: Description
-    """
-    if number == 1:
-        return True
-    elif number == 0:
-        return False
-    else:
-        return False
-
 
 def get_response_data(url, params, headers):
     """
