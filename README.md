@@ -3,10 +3,10 @@ This script connects to the Crossref REST API to grab all volumes from an open s
 
 
 ## Features
-- **REST API Integration**: Sends filtered, sorted queries to Crossref's API with customizable payload parameters.
+- **REST API Integration**: Sends filtered, sorted queries to Crossref's API with customisable payload parameters.
 - **Robust Parsing**: Safely traverses nested JSON structures (resource $\rightarrow$ primary $\rightarrow$ URL) with defensive default fallbacks.
-- **Rate-Limit Safe**: Implements execution delays (time.sleep) between printed outputs to respect downstream consumers and terminal rate limits.
-- **Polite API Requests**: Incorporates custom User-Agent headers in compliance with Crossref API best practices.
+- **Rate-Limit Safe**: Implements execution delays (time.sleep) between printed outputs to respect rate limits.
+- **Polite API Requests**: Incorporates User-Agent headers in compliance with Crossref API best practices.
 
 ---
 ## Requirements
